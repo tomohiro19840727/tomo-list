@@ -63,7 +63,7 @@ const App: React.FC = () => {
   return (
     <>
         <div>
-        <h1 className="text-center font-serif text-6xl mt-10">タスク管理アプリ</h1>
+        <h1 className="text-center font-serif text-6xl mt-10">タスク管理</h1>
         <div className="mr-40 ml-40 mt-20">
         <FullCalendar
           plugins={[dayGridPlugin, interactionPlugin, timeGridPlugin,listPlugin ]}
