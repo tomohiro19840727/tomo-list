@@ -61,7 +61,7 @@ const App: React.FC = () => {
   return (
     <>
       <div>
-        <h1 className="text-center font-serif text-6xl mt-10">タスク管理</h1>
+        <h1 className="text-center font-serif text-6xl mt-10">仕事タスク管理</h1>
         <div className="mx-8 mt-20"> {/* Tailwind CSSのマージン調整 */}
           <FullCalendar
             plugins={[dayGridPlugin, interactionPlugin, timeGridPlugin, listPlugin]}
