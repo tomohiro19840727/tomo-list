@@ -45,6 +45,7 @@ interface CustomCalendarProps {
   const handleDeleteEvent = async () => {
     if (clickedEventTitle) {
       const eventToDelete = events.find((event) => event.title === clickedEventTitle);
+      console.log(eventToDelete);
       if (eventToDelete) {
         await deleteDoc(doc(db, 'list', eventToDelete.id));
         const updatedEvents = events.filter((event) => event.id !== eventToDelete.id);
