@@ -76,7 +76,7 @@ interface CustomCalendarProps {
         
             {clickedEventTitle && (
               <div>
-                <p>予定: {clickedEventTitle}</p>
+                <p>: {clickedEventTitle}</p>
                 <button onClick={handleDeleteEvent}>削除</button>
               </div>
             )}
